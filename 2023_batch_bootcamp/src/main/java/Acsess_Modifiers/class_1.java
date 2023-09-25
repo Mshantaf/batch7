@@ -1,7 +1,7 @@
 package Acsess_Modifiers;
 
 public class class_1 {
-	
+	//changes 
 	 
 //	//Public or Default: Visible for all packages or classes
 //	protected int A= 10 ;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [regression]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://www.homedepot.com/"/>
+  <test thread-count="5" name="Create New Account HomeDepot (failed)">
+    <parameter name="Email" value="M.shantaf@hotmail.com"/>
+    <parameter name="pass" value="4444444"/>
+    <parameter name="Phone_Number" value="403023555"/>
+    <parameter name="Zip_code" value="77855"/>
+    <classes>
+      <class name="HOME_DEPOT.new_test">
+        <methods>
+          <include name="create_account" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- HOME_DEPOT.new_test -->
+    </classes>
+  </test> <!-- Create New Account HomeDepot (failed) -->
+</suite> <!-- Failed suite [regression] -->
